@@ -9,4 +9,10 @@ class Restaurant():
         print(self.restaurant_name)
         print(self.cuisine_type)
 
-    def open_restaurant():
+    def open_restaurant(self):
+        print(self.restaurant_name.title() + " is open for business!!!")
+
+first = Restaurant('singhao', 'chinese')
+
+first.describe_restaurant()
+first.open_restaurant()
