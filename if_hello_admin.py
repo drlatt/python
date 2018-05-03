@@ -1,4 +1,5 @@
 #usernames = ['ken', 'admin', 'eminem', 'mike', 'akon']
+#declare list
 usernames = []
 if usernames:
     for username in usernames:
